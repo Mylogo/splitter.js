@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        body {
+            background-color: rgb(38,38,38);
+        }
+        .box {
+            display: block;
+            height: 100px;
+            min-height: 50px;
+            width: 200px;
+            background-color: rgb(240,240,240);
+        }
+        #splitter {
+            display: block;
+            width: 200px;
+            height: 20px;
+            background-color: rgb(78,78,78);
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box"></div>
+    <div id="splitter"></div>
+    <div class="box"></div>
+
+    <pre style="color: rgb(255,255,100)">
+    initVerticalSplitter('#splitter');
+
+
+    Splitter, previous and next element of
+    given splitter should be:
+
+    display: block</pre>
+
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="splitter.js"></script>
+    <script type="text/javascript">
+        initVerticalSplitter('#splitter');
+    </script>
+</body>
+</html>
